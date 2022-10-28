@@ -13,14 +13,16 @@ namespace ScoreBoard.Controls
         public SpectatorCameraControl()
         {
             InitializeComponent();
+        }
+
+        public void StartCamera()
+        {
             _paths = Directory.GetFiles("./gifs/");
             _random = new Random();
             currentGifIndex = _random.Next(0, _paths.Length);
             _picSpectatorCamera.ImageLocation = _paths[currentGifIndex];
             timer1.Start();
         }
-
-
         private void timer1_Tick(object sender, EventArgs e)
         {
             int gifIndex;

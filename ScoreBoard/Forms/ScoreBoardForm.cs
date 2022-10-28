@@ -10,6 +10,7 @@ namespace ScoreBoard.Forms
         public ScoreBoardForm()
         {
             InitializeComponent();
+            _spectatorCamera.StartCamera();
         }
 
         public TeamScoreControl Host => _host;

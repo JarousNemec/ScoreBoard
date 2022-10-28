@@ -77,7 +77,7 @@ namespace ScoreBoard.Forms
             // 
             this._spectatorCamera.Location = new System.Drawing.Point(12, 811);
             this._spectatorCamera.Name = "spectatorCamera";
-            this._spectatorCamera.Size = new System.Drawing.Size(1110, 338);
+            this._spectatorCamera.Size = new System.Drawing.Size(1100, 338);
             this._spectatorCamera.TabIndex = 5;
             // 
             // ScoreBoardForm
