@@ -70,11 +70,29 @@
         <Compile Include="Controls\PlayerPenaltyControl.Designer.cs">
           <DependentUpon>PlayerPenaltyControl.cs</DependentUpon>
         </Compile>
+        <Compile Include="Controls\AddPlayerPenaltyControl.cs">
+          <SubType>UserControl</SubType>
+        </Compile>
+        <Compile Include="Controls\AddPlayerPenaltyControl.Designer.cs">
+          <DependentUpon>AddPlayerPenaltyControl.cs</DependentUpon>
+        </Compile>
+        <Compile Include="Controls\PlayerPenaltyParentControl.cs">
+          <SubType>UserControl</SubType>
+        </Compile>
+        <Compile Include="Controls\PlayerPenaltyParentControl.Designer.cs">
+          <DependentUpon>PlayerPenaltyParentControl.cs</DependentUpon>
+        </Compile>
         <Compile Include="Controls\ScoreSettingsControl.cs">
           <SubType>UserControl</SubType>
         </Compile>
         <Compile Include="Controls\ScoreSettingsControl.Designer.cs">
           <DependentUpon>ScoreSettingsControl.cs</DependentUpon>
+        </Compile>
+        <Compile Include="Controls\SpectatorCameraControl.cs">
+          <SubType>UserControl</SubType>
+        </Compile>
+        <Compile Include="Controls\SpectatorCameraControl.Designer.cs">
+          <DependentUpon>SpectatorCameraControl.cs</DependentUpon>
         </Compile>
         <Compile Include="Controls\TeamScoreControl.cs">
           <SubType>UserControl</SubType>
@@ -82,11 +100,11 @@
         <Compile Include="Controls\TeamScoreControl.Designer.cs">
           <DependentUpon>TeamScoreControl.cs</DependentUpon>
         </Compile>
-        <Compile Include="Form1.cs">
+        <Compile Include="ScoreBoardManagerForm.cs">
             <SubType>Form</SubType>
         </Compile>
-        <Compile Include="Form1.Designer.cs">
-            <DependentUpon>Form1.cs</DependentUpon>
+        <Compile Include="ScoreBoardManagerForm.Designer.cs">
+            <DependentUpon>ScoreBoardManagerForm.cs</DependentUpon>
         </Compile>
         <Compile Include="Forms\ScoreBoardForm.cs">
           <SubType>Form</SubType>
@@ -105,14 +123,23 @@
         <EmbeddedResource Include="Controls\PlayerPenaltyControl.resx">
           <DependentUpon>PlayerPenaltyControl.cs</DependentUpon>
         </EmbeddedResource>
+        <EmbeddedResource Include="Controls\AddPlayerPenaltyControl.resx">
+          <DependentUpon>AddPlayerPenaltyControl.cs</DependentUpon>
+        </EmbeddedResource>
+        <EmbeddedResource Include="Controls\PlayerPenaltyParentControl.resx">
+          <DependentUpon>PlayerPenaltyParentControl.cs</DependentUpon>
+        </EmbeddedResource>
         <EmbeddedResource Include="Controls\ScoreSettingsControl.resx">
           <DependentUpon>ScoreSettingsControl.cs</DependentUpon>
+        </EmbeddedResource>
+        <EmbeddedResource Include="Controls\SpectatorCameraControl.resx">
+          <DependentUpon>SpectatorCameraControl.cs</DependentUpon>
         </EmbeddedResource>
         <EmbeddedResource Include="Controls\TeamScoreControl.resx">
           <DependentUpon>TeamScoreControl.cs</DependentUpon>
         </EmbeddedResource>
-        <EmbeddedResource Include="Form1.resx">
-          <DependentUpon>Form1.cs</DependentUpon>
+        <EmbeddedResource Include="ScoreBoardManagerForm.resx">
+          <DependentUpon>ScoreBoardManagerForm.cs</DependentUpon>
         </EmbeddedResource>
         <EmbeddedResource Include="Forms\ScoreBoardForm.resx">
           <DependentUpon>ScoreBoardForm.cs</DependentUpon>

@@ -15,9 +15,9 @@ namespace ScoreBoard.Controls
         {
             _lblPlayerNumber.Text = playerNumber.ToString();
         }
-        public void SetLeftTime(TimeSpan leftTime)
+        public void SetLeftPenaltyTime(TimeSpan penaltyTime)
         {
-            _lblPenaltyTime.Text = $@"{leftTime.Minutes}:{leftTime.Seconds}";
+            _lblPenaltyTime.Text = $@"{penaltyTime.Minutes}:{penaltyTime.Seconds}";
         }
     }
 }

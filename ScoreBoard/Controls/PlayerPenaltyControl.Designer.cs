@@ -42,10 +42,10 @@ namespace ScoreBoard.Controls
             // _lblPlayerNumber
             // 
             this._lblPlayerNumber.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left)));
-            this._lblPlayerNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 50F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this._lblPlayerNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this._lblPlayerNumber.Location = new System.Drawing.Point(0, 0);
             this._lblPlayerNumber.Name = "_lblPlayerNumber";
-            this._lblPlayerNumber.Size = new System.Drawing.Size(149, 84);
+            this._lblPlayerNumber.Size = new System.Drawing.Size(149, 45);
             this._lblPlayerNumber.TabIndex = 0;
             this._lblPlayerNumber.Text = "00";
             this._lblPlayerNumber.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -53,10 +53,10 @@ namespace ScoreBoard.Controls
             // _lblPenaltyTime
             // 
             this._lblPenaltyTime.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Right)));
-            this._lblPenaltyTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 50F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this._lblPenaltyTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this._lblPenaltyTime.Location = new System.Drawing.Point(214, 0);
             this._lblPenaltyTime.Name = "_lblPenaltyTime";
-            this._lblPenaltyTime.Size = new System.Drawing.Size(292, 84);
+            this._lblPenaltyTime.Size = new System.Drawing.Size(292, 45);
             this._lblPenaltyTime.TabIndex = 1;
             this._lblPenaltyTime.Text = "00:00";
             this._lblPenaltyTime.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -64,10 +64,10 @@ namespace ScoreBoard.Controls
             // label1
             // 
             this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 50F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label1.Location = new System.Drawing.Point(155, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(38, 72);
+            this.label1.Size = new System.Drawing.Size(38, 36);
             this.label1.TabIndex = 2;
             this.label1.Text = "|";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -80,7 +80,7 @@ namespace ScoreBoard.Controls
             this.Controls.Add(this._lblPenaltyTime);
             this.Controls.Add(this._lblPlayerNumber);
             this.Name = "PlayerPenaltyControl";
-            this.Size = new System.Drawing.Size(506, 85);
+            this.Size = new System.Drawing.Size(506, 46);
             this.ResumeLayout(false);
         }
 

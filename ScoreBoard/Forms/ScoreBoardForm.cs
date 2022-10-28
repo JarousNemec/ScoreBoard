@@ -22,7 +22,7 @@ namespace ScoreBoard.Forms
             WindowState = FormWindowState.Maximized;
         }
         
-        private void RemoveControl(PlayerPenaltyControl control)
+        public void RemoveControl(PlayerPenaltyControl control)
         {
             Invoke(new Action((() =>
             {
@@ -31,7 +31,7 @@ namespace ScoreBoard.Forms
             })));
         }
         
-        private void AddControl(PlayerPenaltyControl control)
+        public void AddControl(PlayerPenaltyControl control)
         {
             Invoke(new Action(() =>
             {
@@ -53,7 +53,7 @@ namespace ScoreBoard.Forms
                     if (x + 10 + Controls[i].Width > Width)
                     {
                         y += 10 + Controls[i].Height;
-                        x = 30;
+                        x = 95;
                     }
                 }
             }
